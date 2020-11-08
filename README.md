@@ -24,6 +24,14 @@
 | Vue.js | 2年 | VueRouter,Vuex (独学) |
 | Riot.js | 1年 |  |
 | Nuxt | 1年 | |
+| React/redux | 1年 | |
+
+### DB
+| 名前 | 経験年数 | 備考 |
+----|----|----
+| MySQL | 5年 | 一般的なクエリを書く程度 |
+| Oracle | 2年 | 一般的なクエリを書く程度 |
+| SQL Server | 5年 | 一般的なクエリを書く程度 |
 
 ### その他
 
@@ -34,6 +42,8 @@
 | Github | 5年 |  |
 | Gitlab | 1年 |  |
 | Jenkins | 1年 |  |
+| Redash | 1年 |  |
+| Swagger | 半年未満 |  |
 
 ## 強み
 
