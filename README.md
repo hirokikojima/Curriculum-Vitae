@@ -76,6 +76,7 @@
 - redash
 - errbit
 - swagger
+- docker
 
 #### プロジェクト
 
@@ -269,48 +270,133 @@ CMSを用いたWebサイトの構築、保守・運用をしていました。
 
 ### 2016/07 - 2017/11: CROCO株式会社
 
-　Webアプリケーションエンジニアとして自社サービスの新規開発、保守・運用をおこないました。
+#### 業務概要
+Webアプリケーションエンジニアとして自社サービスの新規開発、保守・運用をおこないました。
 
-#### 自社サービスの保守・運用
+#### OS
+- CentOS
 
-- 担当業務
-  - 他部署からの改善要望をもとに機能追加・改善を行いました。
-- 成果
-  - スピーディな対応で要望の実現し他部署の作業効率化に貢献しました。
-- 言語・環境
-  - CentOS
-  - PHP (Phalcon, ZendFramework)
-  - MySQL
-  - Docker
+#### 言語
+- PHP
+- Javascript
 
-#### 社内業務用のWebアプリケーション開発
+#### DB
+- MySQL
+- Redis
 
-- 担当業務
-  - 設計～保守・運用までの総合的な業務
-- 成果
-  - 社内業務の効率化に貢献した。
-  - JavascriptでFlux的な概念を取り入れて可読性を向上した。
-- 言語・環境
-  - CentOS
-  - PHP (Phalcon)
-  - Javascript (riot.js, backbone.js)
-  - Docker
+#### FW/MV/ツール
+- ZendFramework
+- Phalcon
+- riot.js
+- backbone.js
+- Docker
 
-#### 新規サービスの開発
+<table>
+  <tbody>
+    <tr>
+      <th>期間</th>
+      <td>-</td>
+    </tr>
+    <tr>
+      <th>PJ概要</th>
+      <td>社内用の管理画面の開発</td>
+    </tr>
+    <tr>
+      <th>PJ内容</th>
+      <td>
+        社内の請求書発行処理の自動化のためにシステムの作成。
+        既存サービスのデータから請求書のデータを生成してPDFを出力します。
+      </td>
+    </tr>
+    <tr>
+      <th>作業内容</th>
+      <td>
+        担当工程: 設計～リリース<br/>
+        メンバー: 2名<br/><br/>
+        担当業務<br/>
+        - 設計フェーズ(DB設計など)を上司とすり合わせを行いながら、fix後の実装は一人でおこなっておりました。
+        - riot.jsが本案件から初めて導入されたため、fluxの概念などを調べながら実装を進めた。
+        - 社内のユーザにデモンストレーションやヒアリングを行い認識齟齬がないように進めた。
+      </td>
+    </tr>
+    <tr>
+      <th>言語・環境</th>
+      <td>
+        <ul>
+          <li>CentOS</li>
+          <li>PHP (Phalcon)</li>
+          <li>Javascript (riot.js, backbone.js)</li>
+          <li>Docker</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-- 担当業務
-  - 設計～保守・運用までの総合的な業務
-- 成果
-  - 時間のかかる処理があったため該当部分を非同期化してメッセージキューを利用することで対応しました。
-  - 課金処理の部分についてはテストコードを作成しました。
-- 言語・環境
-  - CentOS
-  - PHP (Phalcon)
-  - Javascript (riot.js, backbone.js)
-  - AWS SQS
-  - Docker
+<table>
+  <tbody>
+    <tr>
+      <th>期間</th>
+      <td>-</td>
+    </tr>
+    <tr>
+      <th>PJ概要</th>
+      <td>新規サービスの構築</td>
+    </tr>
+    <tr>
+      <th>PJ内容</th>
+      <td>
+        新規にアフィリエイトのキーワード検索サービスを構築
+        ユーザがフォームに入力したキーワードをもとにそれに関連するキーワードを検索する。
+      </td>
+    </tr>
+    <tr>
+      <th>作業内容</th>
+      <td>
+        担当工程: 設計～保守・運用までの総合的な業務<br/>
+        メンバー: 2名<br/><br/>
+        担当業務<br/>
+        - 検索処理に時間がかかるためメッセージキューを利用して非同期に処理ができるように実装しました。
+        - 課金処理が実装内容に含まれていたため、決済サービスとの連携をしていました。
+        - 決済サービス部分は不具合があると致命的なためPHPunitでテストコードの作成を行いました。
+      </td>
+    </tr>
+    <tr>
+      <th>言語・環境</th>
+      <td>
+        <ul>
+          <li>CentOS</li>
+          <li>PHP (Phalcon)</li>
+          <li>Javascript (riot.js, backbone.js)</li>
+          <li>AWS SQS</li>
+          <li>Docker</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2013/04 - 2016/6: 株式会社テクノモバイル
 
- Webアプリケーションエンジニアとして受託開発や客先常駐し、Webサイトの新規構築、保守・運用を行いました。
- 
+#### 業務概要
+Webアプリケーションエンジニアとして受託開発や客先常駐し、Webサイトの新規構築、保守・運用を行いました。
+
+#### OS
+- CentOS
+
+#### 言語
+- Java
+- PHP
+- Javascript
+
+#### DB
+- MySQL
+- Oracle
+
+#### FW/MV/ツール
+- Seasar
+- Struts (2系?)
+- CodeIgniter
+- FuelPHP
+- Jquery
+- shell
